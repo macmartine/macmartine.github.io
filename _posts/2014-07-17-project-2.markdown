@@ -1,0 +1,12 @@
+---
+layout: default
+modal-id: 2
+date: Oct 2015
+img: chirpify-analytics.png
+alt: image-alt
+project-date: 2014-2015
+client: Chirpify
+category: Web Development
+description: As part of a small team at Portland-based startup <a href="https://chirpify.com">Chirpify</a> I focused on backend development for their social media loyalty platform. This platform monitors social media for given 'triggers', automating responses, and notifying third-party point systems.
+
+---

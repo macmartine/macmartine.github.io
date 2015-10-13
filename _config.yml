@@ -1,0 +1,44 @@
+# Site settings
+title: Mac Martine
+email: mac.martine@gmail.com
+url: https://macmartine.github.io
+description: "Experienced Ruby/Rails developer with great attention to detail, excellent communication skills, and extremely reliable. Based in Portland, Oregon. Hire me for your project!"
+skills: "Full-stack Ruby/Rails developer - Excellent communicator - Passionate"
+
+# Contact form: comment the line below if you want to stick with the default PHP contact form
+contact: static
+
+# Color settings (hex-codes without the leading hash-tag)
+color:
+  primary: 18bc9c #80B3FF
+  primary-rgb: "24,288,156" #"128,179,255"
+  secondary: 2c3e50 #FD6E8A
+  secondary-dark: 233140 #A2122F
+  href: 00f #A2122F
+
+# Footer settings
+footer:
+  copyright: Mac Martine 
+  location: Location
+  social: Around the Web
+  #credits: Credits
+
+# Social networks usernames (many more available: google-plus, flickr, dribbble, pinterest, instagram, tumblr, linkedin, etc.)
+social:
+  - title: linkedin
+    url: http://linkedin.com/macmartine
+  - title: github
+    url: http://github.com/macmartine
+  - title: twitter
+    url: http://twitter.com/macmartine
+
+# Postal address (add as many lines as necessary)
+address:
+  - line: Portland, Oregon
+
+# Credits content
+credits: ''
+
+# Build settings
+markdown: kramdown
+permalink: pretty
