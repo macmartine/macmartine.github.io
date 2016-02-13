@@ -1,0 +1,21 @@
+@media print {
+	* {
+		font-weight: normal !important;
+		color: #000 !important;
+	}
+	html {
+		font-size: 10pt;
+	}
+	.page-header,
+	.page-footer,
+	.content-footer,
+	.footnotes a {
+		display: none;
+	}
+	.page-content {
+		width: 30em;
+	}
+	.post--byline {
+		display: inline;
+	}
+}

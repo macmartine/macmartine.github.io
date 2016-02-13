@@ -1,0 +1,66 @@
+// Base mixins
+// -----------
+
+// Media queries
+// --------------------------------------------------------
+// Respond to viewport size
+// $size -> viewport size
+// $operator -> 'min' or 'max'
+// $aspect -> 'width' or 'height'
+// --------------------------
+@mixin respond($size, $operator: min, $aspect: width) {
+	@media all and (#{$operator}-#{$aspect}: $size) {
+		@content;
+	}
+}
+
+// Utilities
+// --------------------------------------------------------
+// Clearfix
+// $mode accepts 'light' or 'heavy'
+// 'light' is sufficient for clearing floats, while 'heavy' is required to prevent margin collapsing
+// --------------------------
+@mixin clearfix($mode: light) {
+	@if $mode == heavy {
+		&:before,
+		&:after {
+			content: " ";
+			display: table;
+		}
+		&:after {
+			clear: both;
+		}
+	}
+	@else {
+		&:after {
+			content: " ";
+			display: block;
+			clear: both;
+		}
+	}
+}
+
+// Properties that require browser prefixes
+// --------------------------------------------------------
+// Tab size
+// Units are optional; no unit will render
+// as spaces
+// --------------------------
+@mixin tab-size($width) {
+	-moz-tab-size: $width;
+	-o-tab-size: $width;
+	tab-size: $width;
+}
+
+// Selection background
+// --------------------------
+@mixin selection($color) {
+	::-moz-selection {
+		background: $color;
+		text-shadow: none;
+	}
+	::selection {
+		background: $color;
+		text-shadow: none;
+	}
+}

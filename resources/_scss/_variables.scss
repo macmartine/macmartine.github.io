@@ -1,0 +1,61 @@
+// Variables
+// ---------
+
+// Colors
+// --------------------------------------------------------
+$white: #fff;
+/*$offWhite: #f2f2f0;*/
+$offWhite: #F9F8F8;
+$grayLighter: #b8b4a7;
+$grayLight: #9e9b90;
+$gray: #7d7d79;
+$grayDark: #474745;
+
+$blue: #0c9bff;
+$orange: #ffb001;
+$lavender: #b680ff;
+
+$blueLight: transparentize($blue, 0.4);
+$orangeLight: transparentize($orange, 0.4);
+$lavenderLight: transparentize($lavender, 0.4);
+
+// Typography
+// --------------------------------------------------------
+$fontSerif: "oxygen", georgia, serif;
+$fontSans: "source-sans-pro", helvetica, arial, sans-serif;
+$fontMono: "source-code-pro", monospace;
+
+$super-alpha: 42px;
+$alpha: 1.4em;
+$beta: 1.2em;
+$gamma: 1em;
+$delta: 0.8em;
+$epsilon: 0.6em;
+
+$regular: 400;
+$semibold: 600;
+
+// Measurements
+// --------------------------------------------------------
+$baseLineHeight: 1.65;
+$lessLineHeight: 1.3;
+
+$verticalSpace: 1.65em;
+/*$verticalSpace: 0;*/
+$horizontalSpace: 1.65em;
+$shim: 1em;
+$diff: $verticalSpace - $shim;
+
+$mainWidth: 977px;
+$contentWidth: 758px;
+
+$borderThickness: 2px;
+
+$transitionTime: 0.1s;
+
+// Responsive breakpoints
+// TODO Switch to ems?
+// --------------------------------------------------------
+$screenNarrow: 480px;
+$screenMedium: 610px;
+$screenWide: 720px;

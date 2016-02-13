@@ -1,0 +1,542 @@
+// Components
+// ----------
+
+// Page-level
+// --------------------------------------------------------
+.container {
+	background-color: $white;
+	padding: 0 $shim;
+	@include respond($mainWidth) {
+		width: $mainWidth;
+		margin: 0 auto;
+	}
+}
+
+// This is only displayed in IE8 & down
+.psa {
+	color: $white;
+	text-align: center;
+	background-color: $grayDark;
+	padding: 0.25em 0 0.5em;
+	a {
+		text-decoration: underline;
+		box-shadow: none;
+	}
+}
+
+// Header
+// --------------------------------------------------------
+.page-header {
+	width: 100%;
+	text-align: center;
+	padding-top: $verticalSpace;
+  margin-bottom: $verticalSpace * 2;
+  font-weight: 300;
+  line-height: 1;
+	/*&:after {*/
+		/*@include bar($blueLight, wide);*/
+		/*content: "";*/
+		/*position: relative;*/
+		/*bottom: -$verticalSpace;*/
+	/*}*/
+}
+
+// a
+.portrait {
+	display: block;
+	width: 3.65em;
+	height: 3.65em;
+	margin: 0 auto ($shim / 1.6);
+	box-shadow: none;
+	img {
+		width: 100%;
+		border-radius: 100%;
+	}
+}
+
+.title {
+	font-size: $super-alpha;
+	line-height: $baseLineHeight;	
+  text-transform: uppercase;
+}
+
+// ul
+.nav-primary {
+	display: -webkit-flex;
+	display: flex;
+	-webkit-justify-content: center;
+	justify-content: center;
+	-webkit-flex-wrap: wrap;
+	flex-wrap: wrap;
+	-webkit-align-content: center;
+	align-content: center;
+	list-style-type: none;
+	padding-left: 0;
+	margin-bottom: 0;	
+  text-transform: uppercase;
+  font-size: 10px;
+  letter-spacing: 0.2em;
+  font-weight: 700;
+	li {
+		margin: 0 ($shim / 2);
+    a {
+      height: 60px;
+      padding: 0 14px 10px 14px;
+    }
+	}
+	.active {
+		box-shadow: none;
+	}
+	.no-flexbox &,
+	.no-flexboxlegacy & {
+		li {
+			display: inline;
+		}
+	}
+}
+
+// Footer
+// --------------------------------------------------------
+.page-footer {
+	width: 100%;
+	text-align: center;
+	padding-top: $verticalSpace;
+	margin-bottom: $verticalSpace;
+	&:before {
+		@include bar($blueLight, wide);
+		content: "";
+		position: relative;
+		top: -$verticalSpace;
+	}
+}
+
+.addenda {
+	@extend %delta;
+	color: $grayLighter;
+}
+
+.tagline,
+.copyright {
+	@extend %delta;
+	color: $grayLighter;
+	margin: 0;
+}
+
+.totem {
+	display: inline-block;
+	vertical-align: top;
+	height: 2em;
+	margin-top: 1.2em;
+	opacity: 0.6;
+}
+
+// Content
+// --------------------------------------------------------
+.page-content {
+	// Padding on .container has to be added to breakpoint
+	@include respond($contentWidth + 48) {
+		width: $contentWidth;
+		margin: 0 auto;
+	}
+}
+
+// List-level
+// --------------------------
+// For list-level content appearing linearly down 
+// the page; units are spaced generously and have dividers 
+// between them
+.unit {
+	padding-top: $verticalSpace;
+	margin-bottom: $verticalSpace * 2;
+	& + & {
+		padding-top: $verticalSpace * 2;
+		&:before {
+			@include bar($blueLight);
+			content: "";
+			position: relative;
+			top: -$verticalSpace * 2;
+		}
+	}
+}
+
+// header
+// This wrapper ensures standard 1em bottom margin 
+// independent of font-size
+.unit--header {
+	margin-bottom: $shim * 2;
+}
+
+// Lives inside unit--header
+.unit--title {
+	font-size: $alpha;
+	margin: 0;
+}
+
+// Lives inside unit--header
+.unit--deck {
+	@extend %aside;
+	color: $grayLighter;
+}
+
+// header
+// This wrapper ensures standard 1em bottom margin 
+// independent of font-size
+.unit--header-alt {
+	display: -webkit-flex;
+	display: flex;
+	-webkit-justify-content: space-between;
+	justify-content: space-between;
+	color: $grayLighter;
+	line-height: $lessLineHeight;
+	margin-bottom: $shim;
+	.no-flexbox &,
+	.no-flexboxlegacy & {
+		position: relative;
+	}
+}
+
+// Lives inside unit--header-alt
+.unit--kicker {
+	@extend %delta;
+	margin-bottom: 0;
+}
+
+// Lives inside unit--header-alt
+.unit--link {
+	@extend %delta;
+	color: $grayLighter;
+	.no-flexbox &,
+	.no-flexboxlegacy & {
+		position: absolute;
+		top: 0;
+		right: 0;
+	}
+}
+
+// ul
+.post-list {
+	list-style-type: none;
+	padding-left: 0;
+	li {
+		margin-bottom: $verticalSpace;
+	}
+}
+
+.post-list--title {
+	font-family: $fontSerif;
+	font-size: $beta;
+}
+
+// p
+.post-list--body {
+	font-family: $fontSans;
+	font-size: $delta;
+}
+
+// Post-level
+// --------------------------
+.post {
+	padding-top: $verticalSpace;
+	margin-bottom: $verticalSpace * 2;
+	// Style all h3s this way so text
+	// posts can be pure markdown
+	> h3 {
+		padding-top: $diff;
+	}
+}
+
+.post--header {
+	margin-bottom: $shim;
+}
+
+.post--title {
+	font-size: $alpha;
+	margin: 0 0 0.2em;
+	a {
+		display: block;
+		box-shadow: none;
+	}
+}
+
+.post--meta {
+	@extend %delta;
+	color: $grayLighter;
+	time {
+		display: inline;
+	}
+}
+
+// This only displays when the page is printed
+.post--byline {
+	display: none;
+}
+
+.post--lead {
+	font-size: $beta;
+	line-height: 1.55;
+	margin: 0 0 0.9em;
+	&.center {
+		text-align: center;
+	}
+}
+
+.post--links {
+	margin-bottom: $shim;
+	a {
+		@extend %aside;
+	}
+}
+
+// This is a generic wrapper to incorporate an element or group 
+// of elements into the vertical rhythm of a post
+.post--item {
+	margin-bottom: $shim;
+}
+
+// figure
+.post--figure {
+	width: 100%;
+	margin: 0 auto $shim auto;
+	img {
+		display: block;
+		width: 100%;
+	}
+	figcaption {
+		@extend %aside;
+		color: $grayLight;
+	}
+	@include respond($screenNarrow) {
+		width: 19em;
+	}
+}
+
+// .post--figure
+.layered {
+	position: relative;
+	&:hover {
+		img:nth-child(2) {
+			opacity: 1;
+		}
+	}
+	img {
+		&:focus {
+			outline: 0;
+		}
+	}
+	img:nth-child(2) {
+		opacity: 0;
+		position: absolute;
+		top: 0;
+		transition: 0.3s opacity ease-out;
+		pointer-events: none;
+	}
+	.touch & {
+		img:nth-child(1) {
+			&:focus {
+				& + img {
+					opacity: 1;
+					pointer-events: auto;
+				}
+			}
+		}
+		img:nth-child(2) {
+			&:focus {
+				opacity: 0;
+			}
+		}
+	}
+}
+
+// .post--figure
+.full-width {
+	@include respond($screenNarrow) {
+		width: 100%;
+	}
+}
+
+// .post--figure
+.diptych {
+	width: 100%;
+	img:nth-child(2) {
+		margin-top: 1em;
+	}
+	@include respond($screenNarrow) {
+		display: -webkit-flex;
+		display: flex;
+		-webkit-justify-content: space-between;
+		justify-content: space-between;
+		-webkit-flex-wrap: wrap;
+		flex-wrap: wrap;
+		img {
+			width: calc(50% - 0.5em);
+			height: 50%;
+		}
+		img:nth-child(2) {
+			margin: 0;
+		}
+	}
+	.no-flexbox &,
+	.no-flexboxlegacy & {
+		@include clearfix;
+		img {
+			float: left;
+		}
+		img:nth-child(2) {
+			margin: 0 0 0 1em;
+		}
+	}
+}
+
+.full-width,
+.diptych {
+	figcaption {
+		clear: both;
+		width: 100%;
+		max-width: $contentWidth;
+		margin: 0 auto;
+	}
+	@include respond($mainWidth) {
+		width: auto;
+		margin-right: -$shim;
+		margin-left: -$shim;
+	}
+}
+
+// Footnotes markup is generated my kramdown
+.footnotes {
+	padding: ($shim / 2) ($shim / 2) 0 0;
+	border-top: 1px solid lighten($grayLight, 25%);
+	margin-top: $shim;
+	ol {
+		@extend %aside;
+		color: $grayLighter;
+		li + li {
+			margin-top: 1em;
+		}
+	}
+}
+
+// Forms
+// --------------------------
+form {
+	background-color: $offWhite;
+	padding: 1em $diff;
+	margin-bottom: $shim;
+	.input {
+		margin-bottom: $verticalSpace;
+		&:last-child {
+			margin-bottom: 0;
+		}
+	}
+	label {
+		display: block;
+		font-family: $fontSans;
+		font-size: $delta;
+	}
+	[type=text],
+	[type=email],
+	textarea {
+		display: block;
+		width: 100%;
+		color: $white;
+		font-family: $fontSans;
+		font-size: $delta;
+		/*background-color: $grayDark;*/
+		padding: 0 0.4em 0;
+		border: none;
+		transition: $transitionTime background-color ease;
+		&:focus {
+			background-color: transparentize($grayDark, 0.15);
+			outline: 0;
+		}
+		&:invalid {
+			box-shadow: none;
+		}
+	}
+	[type=text],
+	[type=email] {
+		height: $verticalSpace * 1.25;
+	}
+	textarea {
+		height: $verticalSpace * 5.25;
+		line-height: $baseLineHeight;
+		padding-top: 0.175em;
+		padding-bottom: 0.175em;
+		resize: none;
+	}
+	[type=submit] {
+		display: inline-block;
+		vertical-align: top;
+		font-family: $fontSans;
+		font-size: $delta;
+		color: $grayDark;
+		background-color: transparent;
+		padding: 10px 0 5px;
+		border: 0;
+		&:focus {
+			color: $orange;
+			outline: none;
+		}
+	}
+	@include respond($screenWide) {
+		.input {
+			margin-bottom: $verticalSpace * 0.8;
+			&.left {
+				width: 50%;
+				padding-right: $verticalSpace * 0.4;
+				float: left;
+			}
+			&.right {
+				width: 50%;
+				padding-left: $verticalSpace * 0.4;
+				float: left;
+			}
+		}
+	}
+}
+
+// Highlights
+// --------------------------
+.highlight {
+	color: $white;
+	background-color: $grayDark;
+	margin-bottom: $shim;
+	box-shadow: inset 1px 1px 0 0 darken($grayDark, 3%);
+	code {
+		font-family: $fontMono;
+		font-weight: $regular;
+		line-height: $lessLineHeight;
+		background-color: transparent;
+		border-bottom: none;
+	}
+}
+
+// Content footer
+// Only appears in single view
+// --------------------------
+.content-footer {
+	width: 100%;
+	text-align: center;
+	color: $grayLighter;
+	margin: 0 auto ($verticalSpace * 2) auto;
+	@include respond($screenNarrow) {
+		width: 19em;
+	}
+}
+
+.marginalia {
+	font-family: $fontSans;
+	font-size: $delta;
+}
+
+// ul
+.pagination {
+	list-style-type: none;
+	font-family: $fontSans;
+	font-size: $delta;
+	padding-left: 0;
+	position: relative;
+	li {
+		display: inline-block;
+	}
+}

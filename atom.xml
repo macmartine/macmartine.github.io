@@ -1,0 +1,25 @@
+---
+---
+
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+	<title>Mac Martine</title>
+	<link href="http://macmartine.com/atom.xml" rel="self"/>
+	<link href="http://macmartine.com/"/>
+	<updated>{{ site.time | date_to_xmlschema }}</updated>
+	<id>http://macmartine.com/</id>
+	<author>
+		<name>Mac Martine</name>
+		<email>mac.martine@gmail.com</email>
+	</author>
+
+	{% for post in site.categories.words %}
+	<entry>
+		<title>{{ post.title }}</title>
+		<link href="http://macmartine.com{{ post.url }}"/>
+		<updated>{{ post.date | date_to_xmlschema }}</updated>
+		<id>http://macmartine.com{{ post.id }}</id>
+		<content type="html">{{ post.content | xml_escape }}</content>
+	</entry>
+	{% endfor %}
+</feed>

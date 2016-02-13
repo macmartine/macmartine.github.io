@@ -1,0 +1,12 @@
+---
+layout: post
+title: Articles
+published: true
+---
+
+<ul class="post-list">
+  {% for post in site.posts %}
+    <h3 class="post-list--title"><a href="{{ post.url }}">{{ post.title }}</a></h3>
+  </li>
+  {% endfor %}
+</ul>

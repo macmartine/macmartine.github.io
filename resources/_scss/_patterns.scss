@@ -1,0 +1,27 @@
+// Patterns
+// --------
+
+// Typography
+// --------------------------------------------------------
+// Hierarchy
+// --------------------------
+%delta {
+	font-family: $fontSans;
+	font-size: $delta;
+	font-weight: $semibold;
+	@include respond($screenMedium) {
+		font-size: $epsilon;
+	}
+}
+
+// Block level
+// --------------------------
+%aside {
+	font-family: $fontSans;
+	font-size: $delta;
+	line-height: $lessLineHeight;
+	padding-top: $shim / 2;
+	p {
+		margin-bottom: 0;
+	}
+}
