@@ -21,11 +21,9 @@ In the recent past, I’ve:
 
 I reside in Portland, Oregon with my lovely wife, two little boys and my bikes. We travel, camp, cook, read by the fire, and occasionally nap. We try to keep things simple.
 
-[comment]: <> > Mac is truly invested in the growth of our company and knocks himself out to make sure everything is running smoothly. I can say without hesitation, Mac is the best technology talent I’ve ever worked with, and he&#8217;s a world-class communicator, which makes such a difference.
+> Mac is truly invested in the growth of our company and knocks himself out to make sure everything is running smoothly. I can say without hesitation, Mac is the best technology talent I’ve ever worked with, and he&#8217;s a world-class communicator, which makes such a difference.
 >
-
-[comment]: <> > <cite> --Elicia Putnam, Brand Genie</cite>
+> <cite> --Elicia Putnam, Brand Genie</cite>
 
 {% include newsletter_signup_form.html %}
 
-https://shannonsneed.contently.com/
