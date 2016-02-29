@@ -7,9 +7,15 @@ Hey, what’s up!?
 
 **I’m Mac Martine, a technology consultant and strategist for early-stage and funded SaaS startups.**
 
-Startup system architecture and development consultant, specializing in 
-
-Focusing on creating efficient 
+[coment]: # Startup system architecture and development consultant, specializing in 
+[coment]: # 
+[coment]: # 
+[coment]: # AWS 
+[coment]: # Streamline startup workflows
+[coment]: # Rescue projects
+[coment]: # 
+[coment]: # 
+[coment]: # Focusing on creating efficient development processes
 
 In the recent past, I’ve:
 
