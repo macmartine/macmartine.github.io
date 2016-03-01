@@ -25,6 +25,10 @@
 	<!--[if lt IE 9]><p class="psa">If not for you, then for the future: <a href="http://browsehappy.com/">upgrade your browser</a>.</p><![endif]-->	
 	<div class="container">
 		<header class="page-header">
+
+      <a class="portrait" href="/">
+        <img class="" src="{{ site.imagePath }}/mac-martine.png" alt="Mac Martine">
+      </a>
 			<h1 class="title"><a href="/">{{ site.title }}</a></h1>
 			<ul class="nav-primary">
 				{% assign items = "home,newsletter,articles,contact" | split: ',' %}{% capture branch %}{{ page.url a'}}{% endcapture %}{% for item in items %}<li><a {% if branch contains item or  (branch == '/' and item == 'home') %}class="active"{% endif %} href="/{% if item == 'home' %}{% else %}{{ item }}{% endif %}">{{ item | capitalize }}</a></li>{% endfor %}

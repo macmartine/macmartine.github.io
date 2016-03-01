@@ -35,6 +35,10 @@ I reside in Portland, Oregon with my lovely wife, two little boys and my bikes. 
 If you need architecture or development guidance, help with payment systems, third-party API's, or general development, 
 let's talk. I'm ready to get to know your business and help you talk it to the next level.
 
+### Get in touch today to schedule a call and let’s talk about how I can help you.
+
+{% include contact_form.html %}
+
 [//]: # Or, keep reading to find out more about how I can help.
 
 [//]: # So many startups have development teams that are blind to the business goals. They are heads down 
