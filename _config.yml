@@ -1,14 +1,21 @@
-title: Mac Martine
+title: Mac Martine 
 author:
   name: Mac Martine
   handle: macmartine
-url: http://macmartine.com
+#url: http://macmartine.com
+meta-description: Want to get your startup off the ground more efficiently, faster, with less money? Consulting and development services for entrepreneurs and startups.
+url: http://localhost:4000
+google_site_verification: 
+google_analytics: UA-82672412-1
 imagePath: /resources/images
 permalink: /:categories/:title/
 exclude: [vendor, Gemfile, Gemfile.lock]
+include: ['_pages']
 timezone: America/Los Angeles
 highlighter: rouge
 markdown: kramdown
+collections:
+  - case_studies
 kramdown:
   auto_ids: false
 sass:

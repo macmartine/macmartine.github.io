@@ -1,33 +1,40 @@
 // Variables
 // ---------
 
+/*https://color.adobe.com/Birdfolio-Blues-color-theme-1945976/*/
+
 // Colors
 // --------------------------------------------------------
 $white: #fff;
 /*$offWhite: #f2f2f0;*/
 $offWhite: #F9F8F8;
-$grayLighter: #b8b4a7;
-$grayLight: #9e9b90;
-$gray: #7d7d79;
+/*$grayLighter: #b8b4a7;*/
+/*$grayLight: #9e9b90;*/
+/*$gray: #7d7d79;*/
+$gray: #EFEFEF;
 $grayDark: #474745;
 
-$blue: #0c9bff;
-$orange: #ffb001;
-$lavender: #b680ff;
+$blue: #BDD4DE;
+$orange: #FF530D;
+/*$lavender: #b680ff;*/
+/*$midBlue: #3F5765;*/
+/*$darkBlue: #2B3A42;*/
 
 $blueLight: transparentize($blue, 0.4);
 $orangeLight: transparentize($orange, 0.4);
-$lavenderLight: transparentize($lavender, 0.4);
+/*$lavenderLight: transparentize($lavender, 0.4);*/
+
+$linkUnderlineColor: $blue;
 
 // Typography
 // --------------------------------------------------------
-$fontSerif: "oxygen", georgia, serif;
+$fontSerif: "Karla", georgia, serif;
 $fontSans: "source-sans-pro", helvetica, arial, sans-serif;
 $fontMono: "source-code-pro", monospace;
 
 $super-alpha: 42px;
-$alpha: 1.4em;
-$beta: 1.2em;
+$alpha: 1.5em;
+$beta: 1.3em;
 $gamma: 1em;
 $delta: 0.8em;
 $epsilon: 0.6em;
@@ -41,13 +48,13 @@ $baseLineHeight: 1.65;
 $lessLineHeight: 1.3;
 
 $verticalSpace: 1.65em;
-/*$verticalSpace: 0;*/
 $horizontalSpace: 1.65em;
 $shim: 1em;
 $diff: $verticalSpace - $shim;
 
-$mainWidth: 977px;
-$contentWidth: 758px;
+$mainWidth: 100%;
+$contentWidth: 100%;
+$contentMargin: 100px;
 
 $borderThickness: 2px;
 

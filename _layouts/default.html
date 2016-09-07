@@ -1,52 +1,81 @@
 <!doctype html>
 <html class="no-js" lang="en">
+
 <head>
-  <link href='https://fonts.googleapis.com/css?family=Oxygen' rel='stylesheet' type='text/css'>
-	<meta charset="utf-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
-	<title>{% if page.title %}{{ page.title }} - {% endif %}{{ site.title }}</title>
-	<meta name="description" content="The personal website of {{ site.author.name }}">
-	<meta name="author" content="{{ site.author.name }}">
-	<meta content="{{ site.title }}" property="og:site_name">
-	<meta content="{{ site.url }}{{ page.url | remove: '/index.html' }}" property="og:url">
-	{% if page.title %}<meta content="{{ page.title }}" property="og:title">{% endif %}
-	{% if page.abstract %}<meta content="{{ page.abstract }}" property="og:description">
-	<meta content="article" property="og:type">
-	<meta content="{{ page.date | date: '%Y-%m-%d' }}" property="article:published_time">
-	<meta content="{{ site.author.name }}" property="og:author">
-	{% else %}<meta content="website" property="og:type">{% endif %}
-	<link rel="icon" href="/favicon.png">
-	<link rel="stylesheet" href="/resources/css/styles.css">
-	{% if page.code == true %}<link rel="stylesheet" href="/resources/css/code.css">{% endif %}
-	<script src="/resources/javascript/modernizr.js"></script>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+	{% if page.metatags %}<meta name="robots" content="{{page.metatags}}">{% endif %}
+  <title>{% if page.title %}{{ page.title }} - {% endif %}{{ site.title }}</title>
+  <meta name="description" content="{{ site.meta-description }}">
+  <meta name="author" content="{{ site.author.name }}">
+  <meta content="{{ site.title }}" property="og:site_name">
+  <meta content="{{ site.url }}{{ page.url | remove: '/index.html' }}" property="og:url">
+  {% if page.title %}<meta content="{{ page.title }}" property="og:title">{% endif %}
+  {% if page.abstract %}<meta content="{{ page.abstract }}" property="og:description">
+  <meta content="article" property="og:type">
+  <meta content="{{ page.date | date: '%Y-%m-%d' }}" property="article:published_time">
+  <meta content="{{ site.author.name }}" property="og:author">
+  {% else %}<meta content="website" property="og:type">{% endif %}
+  <link rel="icon" href="/resources/images/favicon.png">
+  <link href="https://fonts.googleapis.com/css?family=Karla" rel="stylesheet">
+  {% if page.code == true %}<link rel="stylesheet" href="/resources/css/code.css">{% endif %}
+  <link rel="stylesheet" href="http://yui.yahooapis.com/pure/0.6.0/pure-min.css">
+  <link rel="stylesheet" href="/resources/css/styles.css">
   {% include google_analytics.html %}
 </head>
-<body>
-	<!--[if lt IE 9]><p class="psa">If not for you, then for the future: <a href="http://browsehappy.com/">upgrade your browser</a>.</p><![endif]-->	
-	<div class="container">
-		<header class="page-header">
 
-      <a class="portrait" href="/">
-        <img class="" src="{{ site.imagePath }}/mac-martine.png" alt="Mac Martine">
-      </a>
-			<h1 class="title"><a href="/">{{ site.title }}</a></h1>
-			<ul class="nav-primary">
-				{% assign items = "home,newsletter,articles,contact" | split: ',' %}{% capture branch %}{{ page.url a'}}{% endcapture %}{% for item in items %}<li><a {% if branch contains item or  (branch == '/' and item == 'home') %}class="active"{% endif %} href="/{% if item == 'home' %}{% else %}{{ item }}{% endif %}">{{ item | capitalize }}</a></li>{% endfor %}
-			</ul>
-		</header>
-		<main class="page-content">
-			{{ content }}
-		</main>
-		<footer class="page-footer">
-			<p class="addenda">
-				<a href="/contact">Contact</a> &middot;
-				<a href="http://github.com/{{ site.author.handle }}" target="_blank">Github</a> &middot;
-				<a href="/colophon">Colophon</a>
-			</p>
-			<p class="tagline">Made by hands in Portland, Oregon</p>
-			<p class="copyright">All work licensed <a href="http://creativecommons.org/licenses/by-nc-sa/3.0/" target="_blank">thusly</a></p>
-			<object class="totem" type="image/svg+xml" data="{{ site.imagePath }}/oregon.svg">Oregon</object>
-		</footer>
+<body>
+
+  <div class="header">
+    <div class="pure-g text-center">
+      <div class="pure-u-1">
+        <a href="/">
+          <img class="headshot" src="{{ site.imagePath }}/mac-martine.png" alt="Mac Martine">
+        </a>
+        <h1>
+          <a href="/">
+            {{ site.title }}
+            <br/>
+            <span class="small">Consulting & Development</span>
+          </a>
+        </h1>
+      </div>
+    </div>
+  </div>
+
+  <div class="content">
+    {{ content }}
+  </div>
+
+	<div class="footer">
+		<div class="pure-g">
+			<div class="pure-u-1 text-center">
+				<ul>
+					<li>
+						<a href="/">Home</a>
+					</li>
+					<li>
+						<a href="/services">Services</a>
+					</li>
+					<li>
+						<a href="/resources">Resources</a>
+					</li>
+					<li>
+						<a href="/about">About</a>
+					</li>
+					<li>
+						<a href="#contact-popup">Contact</a>
+					</li>
+				</ul>
+				<p class="small">Made with hands in Portland, Oregon</p>
+				<object class="totem" type="image/svg+xml" data="{{ site.imagePath }}/oregon.svg">Oregon</object>
+			</div>
+		</div>
 	</div>
+
+	{% include contact-popup.html %}
+  {% include drip.html %}
+  {% include mixpanel.html %}
+
 </body>
 </html>

@@ -1,5 +1,286 @@
 // Components
 // ----------
+form input{
+	/*padding: 10px;*/
+	/*height: 45px;*/
+}
+
+.top-pad {
+	margin-top: 14px;	
+}
+
+form input[type=submit], .button {
+	display: block;
+	background: #4E9CAF;
+	text-align: center;
+	border-radius: 5px;
+	color: $blue;
+	font-weight: bold;
+	border:none;
+	height: 45px;
+	&:visited {   
+		color: $blue;
+	}
+	&:hover {   
+		color: $white;
+	}
+}
+
+.tall {
+	font-size: $delta;
+}
+
+section.case-study {
+	/*padding: 0 100px;*/
+	.plain {
+		text-align: center;
+		padding: 0;
+		margin: 0;
+		a {
+			box-shadow: none;
+			img {
+				width: 300px;
+			}
+		}
+	}
+}
+
+h1 {
+  position: relative;
+  /*margin-bottom: 60px;*/
+  /*border-bottom: 1px solid #EEE;*/
+  color: $orange;
+	/*padding-left: 30px;*/
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  font-weight: 300;
+	font-size: 42px;
+}
+
+/*h1 em {*/
+  /*position: relative;*/
+  /*top: 26px;*/
+  /*padding: 0 10px;*/
+  /*background: #FFF;*/
+	/*font-style: normal;*/
+/*}*/
+
+hr.divide {
+  margin: 60px auto;
+}
+
+.center {
+  text-align: center;
+}
+
+#home-popup .content, #contact-popup .content {
+  padding: 14px;
+  background-color: white;
+  font-size: $delta;
+	.home-cta {
+		padding-top: 20px;
+	}
+  form {
+    padding-bottom: 0;
+  }
+  img {
+    margin-top: 14px;
+  }
+}
+
+.inline-form {
+  margin-top: 24px;
+}
+
+.content.soft {
+	border-radius: 1%;
+}
+
+/*.sign-up-cta {*/
+  /*font-size: $delta;*/
+/*}*/
+
+.title {
+	border: none;
+	line-height: 0.5;
+	color: $grayDark;
+}
+.title-sub {
+  margin-top: -10px;
+  /*margin-right:-13px;*/
+  font-size: 17px;
+  /*letter-spacing: 13px;*/
+  text-transform: uppercase;
+}
+
+.title-small {
+  font-size: $alpha;
+  text-transform: uppercase;
+  padding: 0 0 18px 0;
+}
+
+footer.small-footer {
+  margin-bottom: 0;
+}
+
+.inline-form {
+  margin: 14px auto;
+  input[type=email], input[type=submit] {
+    width: 250px;
+    display: inline;
+    margin-right: 14px;
+  }
+}
+
+.resources-cta {
+  padding: 24px 0;
+	background-color: $blue;
+  /*text-align: center;*/
+  margin-bottom: $verticalSpace * 2;
+}
+
+// Popup
+.overlay {
+  position: fixed;
+  /*top: 50%;*/
+  /*left: 50%;*/
+  /*margin-top: -50px;*/
+  /*margin-left: -100px;*/
+
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+
+  background: rgba(0, 0, 0, 0.7);
+  transition: opacity 500ms;
+  visibility: hidden;
+  opacity: 0;
+}
+.overlay:target {
+  visibility: visible;
+  opacity: 1;
+}
+
+.popup {
+  max-width: 650px;
+  background-color: $blue;
+  /*margin: 40% auto;*/
+	top: 50%;
+	left: 50%;
+	margin-top: -200px;
+	margin-left: -250px;
+  padding: 20px;
+  /*background: #fff;*/
+  border-radius: 5px;
+  /*width: 30%;*/
+  /*position: relative;*/
+	/*width: 600px;*/
+	/*height: 400px;*/
+  position: absolute;
+  transition: all 5s ease-in-out;
+}
+
+.popup .close {
+  position: absolute;
+  top: 20px;
+  right: 30px;
+  transition: all 200ms;
+  font-size: 30px;
+  font-weight: bold;
+  text-decoration: none;
+  color: #333;
+}
+.popup .close:hover {
+  color: #06D85F;
+}
+.popup .content {
+  /*max-height: 30%;*/
+  overflow: auto;
+}
+
+@media screen and (max-width: 700px){
+  .box{
+    width: 70%;
+  }
+  .popup{
+    width: 70%;
+  }
+}
+
+// Misc
+
+.cite {
+	margin: 0;
+  font-style: normal;
+}
+
+.page-content {
+  @include clearfix;
+  /*margin-bottom: 20px;*/
+}
+
+.col-6 {
+  width: 50%;
+  float: left;
+	padding: 0 15px;
+}
+
+.col-4 {
+  width: 33%;
+  float: left;
+	padding: 0 15px;
+}
+
+.col-8 {
+  width: 66%;
+  float: left;
+	padding: 0 15px;
+}
+
+.row:after, .row:before {
+	display: table;
+	content: " ";
+}
+.row:after {
+	clear: both;
+}
+
+/*.main-left, .main-right {*/
+/*}*/
+
+.main-left {
+	padding: 22px;
+	background-color: #BDD4DE;
+	border-radius: 0.5%;
+}
+
+blockquote.box {
+  padding-top: $horizontalSpace;
+	border-top: 2px solid $blueLight;
+  margin-top: 60px;
+  font-size: $beta;
+}
+
+blockquote {
+  padding-bottom: 32px;
+	img {
+		border-radius: 50%;
+		width: 75px;
+		vertical-align: middle;
+		float: left;
+		margin-right: 14px;
+	}
+}
+
+// H1
+// --------------------------------------------------------
+
+h1 {
+  a {
+    box-shadow: none;
+  }
+}
 
 // Page-level
 // --------------------------------------------------------
@@ -44,8 +325,8 @@
 // a
 .portrait {
 	display: block;
-	width: 3.65em;
-	height: 3.65em;
+	width: 3.15em;
+	height: 3.15em;
 	margin: 0 auto ($shim / 1.6);
 	box-shadow: none;
 	img {
@@ -56,12 +337,13 @@
 
 .title {
 	font-size: $super-alpha;
-	line-height: $baseLineHeight;	
+	/*line-height: $baseLineHeight;	*/
   text-transform: uppercase;
+  margin: 0;
 }
 
 // ul
-.nav-primary {
+.nav-primary, .nav-footer {
 	display: -webkit-flex;
 	display: flex;
 	-webkit-justify-content: center;
@@ -95,15 +377,19 @@
 	}
 }
 
+
 // Footer
 // --------------------------------------------------------
 .page-footer {
+  ul.nav-footer {
+    margin-bottom: 30px;
+  }
 	width: 100%;
 	text-align: center;
 	padding-top: $verticalSpace;
 	margin-bottom: $verticalSpace;
 	&:before {
-		@include bar($blueLight, wide);
+		@include bar($gray, wide);
 		content: "";
 		position: relative;
 		top: -$verticalSpace;
@@ -134,9 +420,11 @@
 // --------------------------------------------------------
 .page-content {
 	// Padding on .container has to be added to breakpoint
+	margin: 0 $contentMargin $contentMargin;
 	@include respond($contentWidth + 48) {
 		width: $contentWidth;
-		margin: 0 auto;
+    margin: 0 $contentMargin;
+		/*margin: 0 0 20px 0;*/
 	}
 }
 
@@ -218,13 +506,13 @@
 	list-style-type: none;
 	padding-left: 0;
 	li {
-		margin-bottom: $verticalSpace;
+		/*margin-bottom: $verticalSpace;*/
 	}
 }
 
 .post-list--title {
 	font-family: $fontSerif;
-	font-size: $beta;
+	font-size: $gamma;
 }
 
 // p
@@ -419,8 +707,8 @@
 // Forms
 // --------------------------
 form {
-	background-color: $offWhite;
-	padding: 1em $diff;
+	/*background-color: $offWhite;*/
+	/*padding: 1em $diff;*/
 	margin-bottom: $shim;
 	.input {
 		margin-bottom: $verticalSpace;
@@ -441,9 +729,10 @@ form {
 		color: $white;
 		font-family: $fontSans;
 		font-size: $delta;
-		/*background-color: $grayDark;*/
+    /*background-color: $grayLighter;*/
+    border: 1px solid $grayLighter;
 		padding: 0 0.4em 0;
-		border: none;
+		/*border: none;*/
 		transition: $transitionTime background-color ease;
 		&:focus {
 			background-color: transparentize($grayDark, 0.15);
@@ -455,7 +744,7 @@ form {
 	}
 	[type=text],
 	[type=email] {
-		height: $verticalSpace * 1.25;
+		height: $verticalSpace * 1.5;
 	}
 	textarea {
 		height: $verticalSpace * 5.25;
@@ -464,20 +753,20 @@ form {
 		padding-bottom: 0.175em;
 		resize: none;
 	}
-	[type=submit] {
-		display: inline-block;
-		vertical-align: top;
-		font-family: $fontSans;
-		font-size: $delta;
-		color: $grayDark;
-		background-color: transparent;
-		padding: 10px 0 5px;
-		border: 0;
-		&:focus {
-			color: $orange;
-			outline: none;
-		}
-	}
+	/*[type=submit] {*/
+		/*display: inline-block;*/
+		/*vertical-align: top;*/
+		/*font-family: $fontSans;*/
+		/*font-size: $delta;*/
+		/*color: $grayDark;*/
+		/*background-color: transparent;*/
+		/*padding: 10px 0 5px;*/
+		/*border: 0;*/
+		/*&:focus {*/
+			/*color: $orange;*/
+			/*outline: none;*/
+		/*}*/
+	/*}*/
 	@include respond($screenWide) {
 		.input {
 			margin-bottom: $verticalSpace * 0.8;

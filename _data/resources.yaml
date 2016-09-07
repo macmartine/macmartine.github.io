@@ -1,0 +1,172 @@
+categories: 
+  - name: Fonts
+    description: 
+    items:
+      - title: Google Fonts
+        url: https://fonts.google.com/
+        image: 'google-fonts.png'
+        description: Free fonts...
+      - title: Typekit
+        url: https://typekit.com/
+        image: 'typekit.png'
+        description: Free fonts...
+
+  - name: User generators
+    description: 
+    items:
+      - title: Random User
+        url: https://randomuser.me/
+        image: 'random-user.png'
+        description: 
+      - title: UI Faces
+        url: http://uifaces.com
+        image: 'ui-faces.png'
+        description: 
+      - title: Adorable Avatars
+        url: http://avatars.adorable.io/
+        image: 'adorable-avatars.png'
+        description: 
+
+  - name: Email templates
+    description: 
+    items:
+      - title: Revue
+        url: https://www.getrevue.co/
+        image: 'revue.png'
+        description: 
+      - title: Zurb
+        url: http://zurb.com/playground/projects/responsive-email-templates/newsletter.html
+        image: 'zurb.png'
+        description: 
+
+  - name: Design patterns
+    description: 
+    items:
+      - title: CodePen
+        url: http://codepen.io/patterns
+        image: 'codepen.png'
+        description: 
+
+  - name: Starting an email list
+    description: 
+    items:
+      - title: Drip
+        url: http://mbsy.co/fMb2P
+        image: 'drip.png'
+        description: 
+      - title: Mailchimp
+        url: http://eepurl.com/ccYiIb
+        image: 'mailchimp.png'
+        description: By using this link you (and I) will get $30 in credits for any Mailchimp services.
+
+  - name: Infographics
+    description: 
+    items:
+      - title: Canva
+        url: https://www.canva.com/create/infographics/
+        image: 'canva.png'
+        description: 
+
+  - name: Prototyping
+    description: 
+    items:
+      - title: Invision App
+        url: https://www.invisionapp.com/
+        image: 'invision.png'
+        description: 
+      - title: Balsamiq mockups
+        url: https://balsamiq.com/products/mockups/
+        image: 'balsamiq.png'
+        description: 
+      - title: Proto.io
+        url: https://proto.io/
+        image: 'proto.png'
+        description: 
+
+  - name: Creating a website
+    description: 
+    items:
+      - title: Wordpress
+        url: https://wordpress.com/
+        image: 'wordpress.png'
+        description: 
+      - title: Squarespace
+        url: https://www.squarespace.com/
+        image: 'squarespace.png'
+        description: 
+      - title: Github pages
+        url: https://pages.github.com/
+        image: 'github-pages.png'
+        description: 
+      - title: Jekyll
+        url: https://jekyllrb.com/
+        image: 'jekyll.png'
+        description: 
+
+  - name: Creating landing pages
+    description: 
+    items:
+      - title: Google Fonts
+        url: https://fonts.google.com/
+        image: 'typekit.png'
+        description: 
+
+  - name: Stock photography
+    description: 
+    items:
+      - title: Unsplash
+        url: https://unsplash.com/
+        image: 'unsplash.png'
+        description: 
+      - title: Freepik
+        url: http://www.freepik.com/
+        image: 'freepik.png'
+        description: 
+
+  - name: Icons
+    description: 
+    items:
+      - title: Font Awesome
+        url: http://fontawesome.io/
+        image: 'font-awesome.png'
+        description: 
+      - title: Fort Awesome
+        url: https://fortawesome.com/
+        image: 'fort-awesome.png'
+        description: 
+      - title: The Noun Project
+        url: https://thenounproject.com/
+        image: 'noun-project.png'
+        description: 
+
+  - name: Hosting
+    description: 
+    items:
+      - title: Bluehost
+        url: 
+        image: 'bluehost.png'
+        description: 
+  - name: Domain registration
+    description: 
+    items:
+      - title: Namecheap
+        url: 
+        image: 'namecheap.png'
+        description: 
+
+  - name: Miscellaneous
+    description:
+    items:
+      - title: The Personal MBA
+        url: https://personalmba.com/best-business-books/
+        image: 'personal-mba.png'
+        description: 
+    items:
+      - title: The Freelance Stack
+        url: https://www.hellobonsai.com/best-freelance-tools
+        image: 'freelance-stack.png'
+        description: 
+
+
+
+
