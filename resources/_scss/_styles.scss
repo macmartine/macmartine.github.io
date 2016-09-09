@@ -1,4 +1,8 @@
 
+div.aside {
+	margin: 3em 0;
+}
+
 .case-study-logo img {
 	max-width: 80%;
 }
@@ -12,6 +16,26 @@
 .text-center {
   text-align: center;
 }
+
+/*.table-cell {*/
+	/*display: table-cell;*/
+/*}*/
+
+.home-cta-image {
+	padding-top: 1.5em;
+}
+
+/*.flex {*/
+	/*display: flex;*/
+/*}*/
+
+/*.text-left {*/
+  /*text-align: left;*/
+/*}*/
+
+/*.text-right {*/
+  /*text-align: right;*/
+/*}*/
 
 .block {
   display: block;
@@ -29,6 +53,10 @@
 .padded-box {
 	padding: 1em;
 }
+
+/*.lightly-padded-box {*/
+	/*padding: 0.5em;*/
+/*}*/
 
 .a-plain {
 	box-shadow: none;	
@@ -50,6 +78,17 @@ body {
 
 hr {
 	border-top: 1px solid $blueLight;
+}
+
+input[type=email] {
+	margin: 1em 0;
+	/*width: 15em;*/
+	/*max-width: 90%;*/
+	padding: 0.21em 1em;
+}
+
+button, input, select, textarea {
+	max-width: 100%;
 }
 
 html, button, input, select, textarea,
@@ -82,7 +121,7 @@ blockquote {
 	img {
 		border-radius: 50%;
 		width: 75px;
-		vertical-align: middle;
+		/*vertical-align: middle;*/
 		float: left;
 		margin-right: 14px;
 	}
@@ -98,7 +137,7 @@ h3 { font-size: $gamma; }
 h1, h2, h3 {
 	color: $orange;
   text-transform: uppercase;
-  line-height: 0.8em;
+  line-height: 1em;
 	font-weight: 100;
 	margin: ($verticalSpace / 2) 0;
   a {
@@ -180,9 +219,13 @@ a {
 	width: 3.5em;
 }
 
+img {
+	max-width: 80%;
+}
+
 .resource-item img {
 	width: 15em;
-	max-width: 80%;
+	/*max-width: 80%;*/
 }
 
 .resource-aside {
@@ -190,10 +233,6 @@ a {
 		position: relative;
 	}
 	min-height: 13em;
-	.btn {
-		position: absolute;
-		bottom: 0;
-	}
 }
 
 /*Popups*/

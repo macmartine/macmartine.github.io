@@ -2,26 +2,27 @@
 
   <div class="pure-g">
 
-    <div class="pure-u-1 pure-u-1-3 text-center">
-      <img src="/resources/images/startup-insights.jpg" width="200px"/>
+    <div class="pure-u-1 pure-u-md-1-3 text-center home-cta-image">
+      <img src="/resources/images/the-saas-bootstrapper-cover.jpg" width="200px"/>
     </div>
 
-    <div class="pure-u-1 pure-u-2-3">
+    <div class="pure-u-1 pure-u-md-2-3">
       <div data-drip-attribute="description">
         <p>
-          The <i>best</i> resource I have for entrepreneurs and startups is my insider list, to which I send my best content to.
-          I promise you'll find nothing but inspiring, enlightening, and actionable content from me in your inbox. 
+          The absolute <i>best</i> resource I have for entrepreneurs building, or looking to build a SaaS product is my insider list to which I send my most valuable content to.
+        </p>
+          I promise you'll find nothing but <b>inspiring, enlightening, and actionable content</b> from me in your inbox. 
+        <p>
         </p>
         <p>Enter your email address below so you don't miss out.</p>
       </div>
 
       <div class="pure-g">
-        <div class="pure-u-1 pure-u-2-3">
-          <input type="email" name="fields[email]" value="" placeholder="Email address"/>
-        </div>
-
-        <div class="pure-u-1 pure-u-1-3">
-          <input type="submit" name="submit" value="Sign Up" data-drip-attribute="sign-up-button" />
+        <div class="pure-u-1">
+          <div>
+            <input type="email" name="fields[email]" placeholder="Email address"/>
+            <input type="submit" name="submit" value="Join the SaaS Bootstrapper" data-drip-attribute="sign-up-button" class="pure-button"/>
+          </div>
         </div>
       </div>
     </div>

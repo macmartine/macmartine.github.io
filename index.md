@@ -3,25 +3,9 @@ layout: default
 title: Work
 ---
 
-<div class="pure-g">
-  <div class="pure-u-1 pure-u-md-1-2 bg-1">
-		<div class="padded-box">
-{% include home_cta.md %}  
-		</div>
-  </div>
-  <div class="pure-u-1 pure-u-md-1-2" markdown="1">
-{% for item in site.data.testimonials %}
-> {{ item.quote }}
->
-><em>
->![{{ item.name }}](/resources/images/testimonials/{{ item.image  }}) 
->{{ item.name }}
-><br />
->{{ item.title }} at [{{ item.company }}]( {{ item.url }} )
-></em>
->
-{% endfor %}
-  </div>
-</div>
+You can find me over at <a href="http://thesaasbootstrapper.com">The Saas Bootstrapper</a>
+<p>
+If you'd like to talk about having your MVP developed, send me an email at <a href="mailto:mac@macmartine.com">mac@macmartine.com</a>
+</p>
 
-{% include home-popup.html %}
+

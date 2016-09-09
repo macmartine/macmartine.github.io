@@ -19,12 +19,35 @@ We whittle down the feature set to what’s core to the platform, and get creati
 </div>
 </div>
 
-<!--Quote-->
+<!--What people say-->
 
-> It's the construction of the foundation that will stand the test of time. 
->
-> *-- David Allen Coe*
-{: .aside }
+<!--# What Clients Say-->
+
+
+<div class="pure-g aside">
+{% for item in site.data.testimonials %}
+<div class="pure-u-1 pure-u-md-1-2 bg-1">
+  <blockquote>
+    <p>
+      {{ item.quote }}
+    </p>
+    <em>
+      <img src="/resources/images/testimonials/{{ item.image  }}" />
+      {{ item.name }}
+      <br/>
+      <a href="{{ item.url }}">{{ item.title }} at {{ item.company }}</a>
+    </em>
+  </blockquote>
+</div>
+{% endfor %}
+</div>
+
+<!--*"You're brilliant. You go the extra mile. You're a delightful human being."*-->
+ 
+<!--*"Your smarts and your can-do attitude are amazing. "*-->
+ 
+<!--*"Let's do this again soon."*-->
+
 
 <!--Case Studies-->
 
@@ -53,15 +76,13 @@ We whittle down the feature set to what’s core to the platform, and get creati
 
 {% endfor %}
 
-<!--What people say-->
+<!--Quote-->
 
-# What Clients Say
+> It's the construction of the foundation that will stand the test of time. 
+>
+> *-- David Allen Coe*
+{: .aside }
 
-> *"You're brilliant. You go the extra mile. You're a delightful human being."*
-> 
-> *"Your smarts and your can-do attitude are amazing. "*
-> 
-> *"Let's do this again soon."*
 
 <!--The Process-->
 

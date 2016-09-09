@@ -20,7 +20,7 @@ permalink:  /resources/
         There are so many good books out there, and I consume as many of them as I
         can. Check out the list of books I've read recently and find your next book.
       </p>
-      <p class="btn">
+      <p>
         <a href="/book-list" class="pure-button">Check out the book list</a>
       </p>
     </div>
@@ -29,10 +29,11 @@ permalink:  /resources/
     <div class="padded-box">
       <h1>Startup development tools</h1>
       <p>
-        There are so many great tools out there for startup Founders and developers. Here's my
-        list of top picks.
+        There are so many great tools out there for startup Founders and developers.
+        <br />
+        Here's a list I've compiled of the best, most useful resources I'm aware of.
       </p>
-      <p class="btn">
+      <p>
         <a href="/startup-resources" class="pure-button">Check out the resource list</a>
       </p>
     </div>

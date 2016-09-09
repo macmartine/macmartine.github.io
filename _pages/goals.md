@@ -22,15 +22,6 @@ While I plan to continue to build on my consulting business, my longer-term goal
 
 ### Freelance/Consulting
 
-To help improve my consulting business I just signed up for <a href="https://doubleyourfreelancing.com/academy/">DYFAcademy</a>, scheduled to start Sept. 15, 2016.
-
-**Goals for DYFA:**
-
-* Hone in on positioning
-* Create compelling messaging
-* Create a lead generation plan
-{: .bullets }
-
 **Goals for freelancing/consulting:**
 
 * Automate lead generation
@@ -55,8 +46,10 @@ In doing so, I expect my other (product and freelance) goals to fall right into 
 
 ### Goals for next 12 months
 
-* Acquire 1,500 email subscribers
+* Acquire 10,000 email subscribers
 * Make $250k
+* Create 3 paid products
+* Start podcasting
 * Sell $5,000 in products
 {: .bullets }
 
@@ -64,9 +57,11 @@ In doing so, I expect my other (product and freelance) goals to fall right into 
 
 ### Goals for Q4 2016
 
-* Acquire 250 email subscribers
-* Make $35k
-* Postitioning, outreach, offer (via DYFA)
+* Acquire 1000 email subscribers
+* Offer productize services
+* Create first paid product (i.e. $19 eBook)
+* Start podcasting
+* Make $35k (secondary priority)
 {: .bullets }
 
 (Focusing on acquiring email subscribers should make the other items relatively easy)
