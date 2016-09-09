@@ -13,7 +13,7 @@ permalink:  /resources/
 </div>
 
 <div class="pure-g resource-aside" >
-  <div class="pure-u-1-2">
+  <div class="pure-u-1 pure-u-md-1-2">
     <div class="padded-box">
       <h1>Reading list</h1>
       <p>
@@ -25,7 +25,7 @@ permalink:  /resources/
       </p>
     </div>
   </div>
-  <div class="pure-u-1-2">
+  <div class="pure-u-1 pure-u-md-1-2">
     <div class="padded-box">
       <h1>Startup development tools</h1>
       <p>

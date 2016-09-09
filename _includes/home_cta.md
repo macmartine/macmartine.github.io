@@ -17,7 +17,7 @@
       <img src="/resources/images/startup-insights.jpg" width="200px"/>
       <br />
       <br />
-      <a href="#home-popup" class="pure-button">Send me the first lesson now</a>
+      <a href="#home-popup" class="pure-button">Send me SaaS startup insights</a>
     </div>
 
   </div>

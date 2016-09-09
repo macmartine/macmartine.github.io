@@ -38,16 +38,16 @@ We whittle down the feature set to what’s core to the platform, and get creati
 <div class="pure-g" markdown="1">
 <div class="pure-u-1 text-center" markdown="1">
 [![{{ page.title }} logo](/resources/images/case_studies/{{ item.logo }})]({{ item.url }}){: .a-plain }
+{: .case-study-logo }
 
 ![{{ page.title }} screenshot](/resources/images/case_studies/{{ item.screenshot }})
+{: .case-study-screenshot }
 </div>
 <div class="pure-u-1" markdown="1">
 
 {{ item.intro }}
 
 {{ item.content }}
-</div>
-</div>
 
 <hr/>
 
@@ -65,27 +65,27 @@ We whittle down the feature set to what’s core to the platform, and get creati
 
 <!--The Process-->
 
-# The Process
+<!--# The Process-->
 
-<!--## The True-Up Process-->
+<!--[>## The True-Up Process<]-->
 
-<div class="pure-g" markdown="1">
-<div class="pure-u-1" markdown="1">
-Each idea that comes to me is unique, and each comes in various stages of maturity. While I tailor the process to your needs, almost everything I take on today consists of two separate phases:
+<!--<div class="pure-g" markdown="1">-->
+<!--<div class="pure-u-1" markdown="1">-->
+<!--Each idea that comes to me is unique, and each comes in various stages of maturity. While I tailor the process to your needs, almost everything I take on today consists of two separate phases:-->
 
-### Discovery/Road-mapping
+<!--### Discovery/Road-mapping-->
 
-I’ve been honing my MVP road-mapping process for awhile now, and continue to fine-tune it as I discover more ways to be effective. The process has become unique enough to deserve its own name, which we call the "Truing Process".  The term comes from the bike world, where wheels are “trued” or aligned through a process of inspection, analysis, patience and precision.
+<!--I’ve been honing my MVP road-mapping process for awhile now, and continue to fine-tune it as I discover more ways to be effective. The process has become unique enough to deserve its own name, which we call the "Truing Process".  The term comes from the bike world, where wheels are “trued” or aligned through a process of inspection, analysis, patience and precision.-->
 
-Through this process, we take a deep dive into what you want to build. After poring over any existing thoughts, documents and research, I take the time to truly understand the idea, the market and competitors. Together we determine the goals of the project and start considering budget. I then map out a feature backlog, a set of deliverables, and several development plan options along with fixed quotes.
+<!--Through this process, we take a deep dive into what you want to build. After poring over any existing thoughts, documents and research, I take the time to truly understand the idea, the market and competitors. Together we determine the goals of the project and start considering budget. I then map out a feature backlog, a set of deliverables, and several development plan options along with fixed quotes.-->
 
-While I hope to earn your business for the development phases, you will have ample documentation to shop around to get other development quotes if you so choose.
+<!--While I hope to earn your business for the development phases, you will have ample documentation to shop around to get other development quotes if you so choose.-->
 
-### Development
+<!--### Development-->
 
-The best part of the discovery phase is how easy and seamless it makes the development phase. All key decisions have been made, from architecture to features to time to budget. You can sit comfortably knowing exactly what you’re going to get and what it’s going to cost you. There aren’t many questions unanswered.
+<!--The best part of the discovery phase is how easy and seamless it makes the development phase. All key decisions have been made, from architecture to features to time to budget. You can sit comfortably knowing exactly what you’re going to get and what it’s going to cost you. There aren’t many questions unanswered.-->
 
-So, it’s head-down development time with periodic checkins to keep you up to speed on how things are going. We raise and red flags as soon as we spot them.
+<!--So, it’s head-down development time with periodic checkins to keep you up to speed on how things are going. We raise and red flags as soon as we spot them.-->
 
 
 </div>

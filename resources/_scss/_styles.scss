@@ -1,4 +1,11 @@
 
+.case-study-logo img {
+	max-width: 80%;
+}
+
+.case-study-screenshot img {
+	width: 80%;
+}
 
 /*Helpers*/
 
@@ -12,6 +19,7 @@
 
 .small {
 	font-size: $epsilon;
+	text-transform: none;
 }
 
 .bg-1 {
@@ -111,7 +119,12 @@ a {
 /*PureCSS modifications*/
 
 .pure-g {
-	margin: 0.2em 0
+	margin: 0.2em 0;
+}
+
+.pure-button {
+	border-radius: 5px;
+	/*background-color: $orangeLight;*/
 }
 
 /*Classes*/
@@ -169,6 +182,7 @@ a {
 
 .resource-item img {
 	width: 15em;
+	max-width: 80%;
 }
 
 .resource-aside {
@@ -189,22 +203,28 @@ a {
 }
 
 .popup {
-  max-width: 650px;
+	width: 650px;
+  max-width: 80%;
   background-color: $blue;
-	top: 50%;
-	left: 50%;
-	margin-top: -200px;
-	margin-left: -250px;
+
+  margin: 70px auto;
+  padding: 20px;
+
+	/*top: 50%;*/
+	/*left: 50%;*/
+	/*margin-top: -200px;*/
+	/*margin-left: -250px;*/
   padding: 20px;
   border-radius: 5px;
-  position: absolute;
+	position: relative;
+  /*position: absolute;*/
   transition: all 5s ease-in-out;
 	h2 {
 		margin-top: 0.1em;
 	}
 	.close {
 		position: absolute;
-		top: 20px;
+		top: 10px;
 		right: 30px;
 		transition: all 200ms;
 		font-size: 30px;

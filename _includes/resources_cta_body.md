@@ -2,11 +2,11 @@
 
   <div class="pure-g">
 
-    <div class="pure-u-1-3 text-center">
+    <div class="pure-u-1 pure-u-1-3 text-center">
       <img src="/resources/images/startup-insights.jpg" width="200px"/>
     </div>
 
-    <div class="pure-u-2-3">
+    <div class="pure-u-1 pure-u-2-3">
       <div data-drip-attribute="description">
         <p>
           The <i>best</i> resource I have for entrepreneurs and startups is my insider list, to which I send my best content to.
@@ -16,11 +16,11 @@
       </div>
 
       <div class="pure-g">
-        <div class="pure-u-2-3">
+        <div class="pure-u-1 pure-u-2-3">
           <input type="email" name="fields[email]" value="" placeholder="Email address"/>
         </div>
 
-        <div class="pure-u-1-3">
+        <div class="pure-u-1 pure-u-1-3">
           <input type="submit" name="submit" value="Sign Up" data-drip-attribute="sign-up-button" />
         </div>
       </div>

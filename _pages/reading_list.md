@@ -17,10 +17,10 @@ Lately I've been plucking more books from the <a href="https://personalmba.com/b
 
 {% for item in site.data.books %}
   <div class="pure-g reading-list-item">
-    <div class="pure-u-1-6">
+    <div class="pure-u-1 pure-u-md-1-6">
       <img src="/resources/images/books/{{ item.image }}" />
     </div>
-    <div class="pure-u-5-6">
+    <div class="pure-u-1 pure-u-md-5-6">
       <a href="{{ item.product_code }}">
         {{ item.title }}
       </a>

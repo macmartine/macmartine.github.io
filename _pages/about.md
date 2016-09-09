@@ -8,7 +8,7 @@ permalink:  /about/
 
 <div class="pure-g">
 <div class="pure-u-1" markdown="1">
-Hey there! My name's Mac, and I like to build things, [teach things](resources), and [help entrepreneurs and startups](/services) develop their ideas. 
+Hey there! My name's Mac, and I like to build things, [help bootstrapped SaaS developers](/resources) save time and money, and increase their chances of success, and offer [consulting and development services](/services) to SaaS startups looking to get from idea to market.
 
 In the past I spent a decade at [Adobe](http://adobe.com), Founded a SaaS company, helped grow [an analytics startup](http://measureful.com) and [see it through an acquisition](http://chirpify.com). 
 I've also built several iPhone games, and countless other apps along the way. Currently I'm focused on helping 
