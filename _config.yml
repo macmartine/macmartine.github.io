@@ -1,32 +1,57 @@
-title: Mac Martine 
-author:
-  name: Mac Martine
-  handle: macmartine
-#url: http://macmartine.com
-meta-description: Want to get your startup off the ground more efficiently, faster, with less money? Consulting and development services for entrepreneurs and startups.
-url: http://localhost:4000
-google_site_verification: 
-google_analytics: UA-82672412-1
-imagePath: /resources/images
-permalink: /:categories/:title/
-exclude: [vendor, Gemfile, Gemfile.lock]
-include: ['_pages']
-timezone: America/Los Angeles
-highlighter: rouge
+# Jykell configuration
+#markdown: redcarpet
+#highlighter: pygments
 markdown: kramdown
-collections:
-  - case_studies
-kramdown:
-  auto_ids: false
-sass:
-  sass_dir: resources/_scss
-  style: :compressed  
+highlighter: rouge
+paginate: 5
+language: 'en-us'
 
-defaults:
-  -
-    scope:
-      type: "posts"
-    values:
-      location: "Portland Or"
-      layout: "post"
-      category: "articles"
+collections:
+- case_studies
+
+# Website info
+name: "SaaS MVP's, dialed."
+description: "For startups and innovation accelerator's within large businesses."
+
+# Author's info
+author: 'Mac Martine'
+# edit 'categories' in the front matter of every post to match this username
+nickname: mac.martine
+bio: ''
+location: 'Portland, Oregon'
+url: 'http://macmartine.github.io'
+image: 'assets/images/mac1.png'
+
+short_url: 'macmartine.github.io/jasper/'
+google_analytics: UA-11711450-1
+disqus: username
+# edit baseurl to simply '/' if using as your personal page (instead of a project page)
+baseurl: /
+
+# Permalinks
+permalink: /:title
+# permalink: /author/:username
+# permalink: /tag/:tag
+
+
+# gems and other configs
+gems: [jekyll-paginate]
+exclude: [vendor]
+
+# Additional settings available on the front-matter
+# Site logo in the index.html (as in demo.ghost.io)
+# Author's page cover in _layouts/author.html
+# The same for page.html and tag.html layouts
+# Post's page cover as a per-post basis _posts/...
+# Disqus comments as a per-post basis
+# ...
+
+exclude:
+  - README.md
+  - Rakefile
+  - Gemfile
+  - Gemfile.lock
+  - changelog.md
+  - "*.Rmd"
+  - vendor
+  - .travis.yml

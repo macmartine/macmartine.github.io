@@ -1,6 +1,6 @@
 ---
 title: Measureful
-url:  http://measureful.com
+siteurl:  http://measureful.com
 order: 300
 logo: measureful-logo.png
 screenshot: measureful.png
