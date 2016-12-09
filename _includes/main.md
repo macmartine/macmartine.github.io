@@ -11,6 +11,10 @@ As someone who almost solely develops SaaS MVP's, I've gotten the process down, 
 
 While I often do all the work myself, I have a powerful army of amazing design and brand folks to bring in if your project calls for it.
 
+On another note, I also run and host [The SaaS Bootstrapper podcast](http://thesaasbootstrapper.com/podcast/).
+
+[Get in touch](mailto:mac.martine@gmail.com){: .btn.learn-more } 
+
 {% for item in site.data.testimonials-mvp %}
 > “{{ item.quote }}”
 >
@@ -22,6 +26,7 @@ While I often do all the work myself, I have a powerful army of amazing design a
 >{{ item.title }} at [{{ item.company }}]( {{ item.url }} )
 >{: .cite }
 {% endfor %}
+
 
 
 ## Case Studies
