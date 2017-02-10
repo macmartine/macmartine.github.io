@@ -13,7 +13,7 @@ While I often do all the work myself, I have a powerful army of amazing design a
 
 On another note, I also run and host [The SaaS Bootstrapper podcast](http://thesaasbootstrapper.com/podcast/).
 
-[Get in touch](mailto:mac.martine@gmail.com){: .btn.learn-more } 
+[Get in touch](mailto:mac.martine@gmail.com){: .btn } 
 
 {% for item in site.data.testimonials-mvp %}
 > “{{ item.quote }}”
@@ -74,4 +74,4 @@ On another note, I also run and host [The SaaS Bootstrapper podcast](http://thes
 {: .aside }
 
 
-[Get in touch](mailto:mac.martine@gmail.com){: .btn.learn-more } 
+[Get in touch](mailto:mac.martine@gmail.com){: .btn } 
