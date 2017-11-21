@@ -30,6 +30,10 @@ blockquote img {
 	border-radius: 100%;
 }
 
+blockquote {
+  font-style: italic;
+}
+
 .case-study-screenshot img {
 	max-width: 750px;
 }
@@ -37,4 +41,16 @@ blockquote img {
 h2 {
 	margin-top: 100px;
 	margin-bottom: 50px;
+}
+
+h4 {
+	margin-bottom: 20px;
+}
+
+h3 {
+  line-height: 40px;
+}
+
+span {
+  color: #df3424;
 }
