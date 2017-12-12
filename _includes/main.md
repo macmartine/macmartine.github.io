@@ -23,7 +23,7 @@
 
   * Being scrappy. MVP’s, V1’s, V2’s, whatever you prefer to call them, need to be functionally pretty solid. And you want them to be able to be built upon, not scrapped, if it continues to grow. But there’s a balance to be had. You don’t want a development environment that’s a mess, but it also doesn’t need to be over-architected for a bunch of theoretical if-this, if-that’s.
 
-<span>For the last startup application I developed, I cut the proposed scope in half for launch, cutting costs by the same amount. We got to market sooner, learned what our customers wanted quicker, and made a better product as a result. Had we built the full initially scope, we’d have wasted a lot of time of features our customers didn’t actually want.</span>
+<span>For the last startup application I developed, I cut the proposed scope in half for launch, cutting costs by the same amount. We got to market sooner, learned what our customers wanted quicker, and made a better product as a result. Had we built the full initial scope, we’d have wasted a lot of time of features our customers didn’t actually want.</span>
 
 {% for item in site.data.testimonials-featured %}
 > “{{ item.quote }}”
