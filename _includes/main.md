@@ -7,7 +7,7 @@
 
 #### Hey, I’m Mac.
 
-**I help the best and brightest startups and entrepreneurs develop their ideas**, scrappily, efficiently, quickly, and agile, yet with the ability to scale. These are not terms you hear agencies using to describe themselves, as they’re built to solve a different set of problems with a different mindset that doesn’t jive with the needs of a startup.
+**I help the best and brightest startups and entrepreneurs develop their ideas**, scrappily, efficiently, quickly, and agile, yet with the ability to scale. These are not terms you hear agencies using to describe themselves, as they’re built to solve a different set of problems with a different mindset that doesn’t jibe with the needs of a startup.
 
 **I help increase efficiency by:**
 
