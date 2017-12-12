@@ -17,7 +17,7 @@
 
 **I help decrease development time and costs by:**
 
-  * Being scrappy, and don’t take that to mean cutting corners, but rather being resourceful and creative. For example, if we’re early on, I won’t hesitate to throw your app on a $7/mo server that takes literally minutes to set up, instead of wasting days on a provisioning a significantly more expensive server, along with automated deploys for when we hit 50,000 customers. I’m not wasting my time and your money on problems that don’t exist.
+  * Being scrappy, and don’t take that to mean cutting corners, but rather being resourceful and creative. For example, if we’re early on, I won’t hesitate to throw your app on a $7/mo server that takes literally minutes to set up, instead of wasting days on provisioning a significantly more expensive server, along with automated deploys for when we hit 50,000 customers. I’m not wasting my time and your money on problems that don’t exist.
 
   * Being scrappy. For example, if we decide to offer a free 30-day trial, let’s launch without the ability to take payments to hit the market and get feedback sooner. We’ll have 30 days to get billing in. 
 
