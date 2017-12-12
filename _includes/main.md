@@ -47,8 +47,6 @@ It’s true that you might benefit from my experience building countless SaaS ap
 
   * Not willing to put off any features that aren’t core to the focused problem we’re solving. Successful startups don’t come from launching a product at the end of their roadmap, rather they launch quickly, iterate, analyze, learn, repeat. And that’s the way I’m committed to working.
   
-  * Looking to build a native mobile application.
-
   * Looking for someone to maintain an existing application.
 
 When roadmapping and development is done with a startup mindset, with people that have experience in finding that perfect balance of scrappiness and solidity, with ability to scale, you’re setting your startup up for the it’s best chance at success. You need quick, forward momentum, with the ability to quickly adjust and pivot on a dime. You need to think and develop quickly, get to market quickly, learn, iterate, rinse and repeat. Ready? Get in touch today and tell me what you’re up to.
